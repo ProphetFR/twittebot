@@ -22,9 +22,9 @@ bot.on('message', message => {
 
 bot.on('message', message => {
     if (message.content === '!!help') {
-      message.send('les commande sont!')
-      message.send('!!help')
-      message.send('!!twitter') 
+      message.reply('les commande sont!')
+      message.reply('!!help')
+      message.reply('!!twitter') 
     }
   })
 
