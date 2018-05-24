@@ -8,3 +8,10 @@ bot.on("ready", function(){
 })
 
 bot.login("NDQ4OTM4NDExMTc3Mjc5NDg4.Dedeyw.UNUMi6mCQM8CwcL2vwh1SCvLapE");
+
+bot.on('message', message => {
+  if (message.content === '!twiiter') {
+    message.send('ok dac')
+   
+  }
+})
