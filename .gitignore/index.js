@@ -9,6 +9,7 @@ bot.on("ready", function(){
 
 bot.login("NDQ4OTM4NDExMTc3Mjc5NDg4.Dedeyw.UNUMi6mCQM8CwcL2vwh1SCvLapE");
 
+
 bot.on('message', message => {
     if (message.content === '!!twitter') {
       message.reply('tu veux des info sur tes jeux pas de problaime les voila sur!')
@@ -20,8 +21,8 @@ bot.on('message', message => {
   });
 
   bot.on('message', message => {
-    if (message.content === '!!twitte') {
-      message.send('non pas sa fait !!twitter pour les twitte')
+    if (message.content === '!!twiiter') {
+      message.send('ok dac voila la commande !!twitter')
      
     }
   });
@@ -30,7 +31,7 @@ bot.on('message', message => {
   else if(message.constent === '!!twitte'( {
       message.channel.send('embed: {
          color: 3447003,
-         description: 'voila frére tes twitte '
+         description: 'non pas sa'
       }});
           
      }
