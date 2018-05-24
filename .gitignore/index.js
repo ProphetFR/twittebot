@@ -25,7 +25,7 @@ bot.on('message', message => {
       message.send('ok dac voila la commande !!twitter')
      
     }
-  });
+  })
   
   
   else if(message.constent === '!!twitte'( {
