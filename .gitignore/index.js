@@ -18,7 +18,7 @@ bot.on('message', message => {
       message.reply('Overwatch https://twitter.com/OverwatchFR?lang=fr!')
       message.reply('fortnite  https://twitter.com/FortniteGame?lang=fr!')
     }
-  });
+  })
 
   bot.on('message', message => {
     if (message.content === '!!twiiter') {
