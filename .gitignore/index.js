@@ -14,4 +14,14 @@ bot.on('message', message => {
     message.send('ok dac')
    
   }
-})
+});
+
+
+else if(message.constent === '!twitte'( {
+    message.channel.send('embed: {
+       color: 3447003,
+       description: 'voila frére tes twitte '
+    }});
+        
+   }
+ )
